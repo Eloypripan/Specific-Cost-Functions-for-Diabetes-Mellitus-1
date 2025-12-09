@@ -1,5 +1,8 @@
 # 🩸 Predicción de Glucosa en Diabetes Tipo 1 con Funciones de Coste Clínicas
 
+## Mejora de la precisión clínica en modelos de predicción de glucosa mediante funciones de coste específicas
+## Enhancing clinical accuracy of glucose prediction models by using glucose-range-specific cost functions
+
 Este repositorio contiene el código desarrollado por Eloy Prieto Panadero para el Trabajo Fin de Máster del Máster en Ciencia de Datos e Ingeniería de Computadores (UGR).
 El objetivo principal es **evaluar el impacto de diferentes funciones de coste clínicas** en la predicción de glucosa en pacientes con diabetes tipo 1 utilizando señales CGM.
 
@@ -214,6 +217,7 @@ Perfecto. Aquí tienes una **versión ampliada del README** que **incluye gráfi
 ![Top10 AB](images/top10_ab.png)
 
 ---
+
 
 
 
