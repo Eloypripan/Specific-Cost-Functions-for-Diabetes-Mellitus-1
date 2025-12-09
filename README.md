@@ -42,13 +42,11 @@ Estas funciones basadas en el Clark Error Grid aplican una **curva sigmoidal** p
 
 
 
-### 📊 Gráfica conceptual de la ponderación sigmoidal
+### 📊 Gráfica conceptual de la cSig
 
-> Sustituye `images/csigp_weight.png` por la ruta real a tu imagen.
+>![cSigp01](graphics/csigp01_3D.png)
 
->![Ponderación cSigp01](images/csigp_weight.png)
-
->![Ponderación cSigp06](images/csigp_weight.png)
+>![cSigp06](images/csigp06_3D.png)
 
 
 
@@ -216,6 +214,7 @@ Perfecto. Aquí tienes una **versión ampliada del README** que **incluye gráfi
 ![Top10 AB](images/top10_ab.png)
 
 ---
+
 
 
 
