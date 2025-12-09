@@ -1,0 +1,27 @@
+{
+  "monitor": "val_loss",
+  "epoch_idx": 64,
+  "epoch_count": 75,
+  "metrics": {
+    "epoch": 64.0,
+    "Clinical_Penalty": 1.1614452600479126,
+    "loss": 1.3486212491989136,
+    "root_mean_squared_error": 30.014205932617188,
+    "val_Clinical_Penalty": 1.1769484281539917,
+    "val_loss": 1.3508989810943604,
+    "val_root_mean_squared_error": 31.640764236450195
+  },
+  "artifacts": {
+    "weights_path": "/home/cirorodriguezleon/RELIEF-T1D/python_projects/Glucose_prediction_2025/Custom_loss_functions/RepeatEloy_BestLogs_FULL_5_FIX_cSig/EXP-20251113-prediction-cSigP01-CNN-H8-PH2-CustomFunction-v1/models/cSigP01_CNN_H2_Fold5.weights.h5",
+    "history_csv_path": "/home/cirorodriguezleon/RELIEF-T1D/python_projects/Glucose_prediction_2025/Custom_loss_functions/RepeatEloy_BestLogs_FULL_5_FIX_cSig/EXP-20251113-prediction-cSigP01-CNN-H8-PH2-CustomFunction-v1/models/cSigP01_CNN_H2_Fold5_history.csv"
+  },
+  "context": {
+    "loss": "cSigP01",
+    "algorithm": "CNN",
+    "prediction_horizon": 2,
+    "history_length": 8,
+    "fold": 5,
+    "run_id": "20251113_101651"
+  },
+  "created_at": "2025-11-13T12:05:03.998373"
+}

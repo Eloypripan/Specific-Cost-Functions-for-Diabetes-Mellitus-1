@@ -1,0 +1,67 @@
+{
+  "experiment": {
+    "loss": "cSigMSEP06",
+    "algorithm": "LSTM",
+    "prediction_horizon": 2,
+    "fold": 3,
+    "history_length": 8,
+    "cross_validation": true,
+    "sensor_limits": {
+      "min": 40,
+      "max": 500
+    },
+    "started_at": "2025-11-13T16:58:41.865983",
+    "run_id": "20251113_101651"
+  },
+  "data": {
+    "file": "/opt/datasets/folds/T1DiabetesGranada/windows_with_folds_horizon_2.parquet",
+    "counts": {
+      "patients": {
+        "train": 450,
+        "val": 65,
+        "test": 128
+      },
+      "windows": {
+        "train": 13900181,
+        "val": 1976792,
+        "test": 3974267
+      },
+      "percent": {
+        "patients": {
+          "train": 69.98444790046656,
+          "val": 10.10886469673406,
+          "test": 19.906687402799378
+        },
+        "windows": {
+          "train": 70.02172660246917,
+          "val": 9.958027810857155,
+          "test": 20.02024558667368
+        }
+      }
+    }
+  },
+  "timing": {
+    "train_seconds": 203.347,
+    "train_elapsed": "0:03:23.346782",
+    "predict_seconds": 73.734,
+    "predict_elapsed": "0:01:13.734250"
+  },
+  "artifacts": {
+    "weights_path": "models/cSigMSEP06_LSTM_H2_Fold3.weights.h5",
+    "history_csv_path": "models/cSigMSEP06_LSTM_H2_Fold3_history.csv",
+    "best_json_path": "models/cSigMSEP06_LSTM_H2_Fold3.best.json",
+    "predictions_parquet_path": "results/predictions/df_test_results_vectors_cSigMSEP06_LSTM_H2_Fold3.parquet",
+    "training_plot_prefix": "plots/training/cSigMSEP06_LSTM_H2_Fold3"
+  },
+  "git": {
+    "commit": "N/A",
+    "branch": "N/A",
+    "remote": "N/A"
+  },
+  "system": {
+    "hostname": "calculus",
+    "os": "Linux 6.8.0-87-generic",
+    "python": "3.11.11",
+    "tensorflow": "2.15.0"
+  }
+}

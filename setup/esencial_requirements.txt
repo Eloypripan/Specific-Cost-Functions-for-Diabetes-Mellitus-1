@@ -1,0 +1,8 @@
+scikit-learn
+numpy
+tensorflow
+pandas
+keras
+matplotlib
+pyarrow
+ipyparallel

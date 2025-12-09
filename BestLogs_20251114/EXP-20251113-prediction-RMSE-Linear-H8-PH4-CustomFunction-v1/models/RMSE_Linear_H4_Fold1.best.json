@@ -1,0 +1,27 @@
+{
+  "monitor": "val_loss",
+  "epoch_idx": 34,
+  "epoch_count": 45,
+  "metrics": {
+    "epoch": 34.0,
+    "Clinical_Penalty": 1.233201503753662,
+    "loss": 36.40078353881836,
+    "root_mean_squared_error": 36.40528869628906,
+    "val_Clinical_Penalty": 1.2292488813400269,
+    "val_loss": 35.711917877197266,
+    "val_root_mean_squared_error": 36.58271789550781
+  },
+  "artifacts": {
+    "weights_path": "/home/cirorodriguezleon/RELIEF-T1D/python_projects/Glucose_prediction_2025/Custom_loss_functions/RepeatEloy_BestLogs_FULL_5_FIX_cSig/EXP-20251113-prediction-RMSE-Linear-H8-PH4-CustomFunction-v1/models/RMSE_Linear_H4_Fold1.weights.h5",
+    "history_csv_path": "/home/cirorodriguezleon/RELIEF-T1D/python_projects/Glucose_prediction_2025/Custom_loss_functions/RepeatEloy_BestLogs_FULL_5_FIX_cSig/EXP-20251113-prediction-RMSE-Linear-H8-PH4-CustomFunction-v1/models/RMSE_Linear_H4_Fold1_history.csv"
+  },
+  "context": {
+    "loss": "RMSE",
+    "algorithm": "Linear",
+    "prediction_horizon": 4,
+    "history_length": 8,
+    "fold": 1,
+    "run_id": "20251113_214949"
+  },
+  "created_at": "2025-11-13T23:18:02.567566"
+}

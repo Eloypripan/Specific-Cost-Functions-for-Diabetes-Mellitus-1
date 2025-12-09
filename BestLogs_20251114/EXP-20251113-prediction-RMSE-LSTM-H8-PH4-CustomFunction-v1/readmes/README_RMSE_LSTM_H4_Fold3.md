@@ -1,0 +1,20 @@
+# Fold 3 Summary for RMSE/LSTM/PH=4
+
+**Data File**: `/opt/datasets/folds/T1DiabetesGranada/windows_with_folds_horizon_4.parquet`
+
+| Split | Patient Count | Window Count | % Patients | % Windows |
+|-------|---------------|--------------|------------|-----------|
+| Train | 450 | 13597404 | 69.98% | 70.01% |
+| Val | 65 | 1934027 | 10.11% | 9.96% |
+| Test | 128 | 3889975 | 19.91% | 20.03% |
+
+## Timings
+- **Training**: 0:03:23.138715
+- **Prediction**: 0:01:22.152837
+
+## Artifacts
+- **Weights**: `models/RMSE_LSTM_H4_Fold3.weights.h5`
+- **History csv**: `models/RMSE_LSTM_H4_Fold3_history.csv`
+- **Best json**: `models/RMSE_LSTM_H4_Fold3.best.json`
+- **Predictions parquet**: `results/predictions/df_test_results_vectors_RMSE_LSTM_H4_Fold3.parquet`
+- **Training plot prefix**: `plots/training/RMSE_LSTM_H4_Fold3`
