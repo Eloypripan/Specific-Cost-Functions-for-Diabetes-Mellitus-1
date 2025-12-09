@@ -109,17 +109,17 @@ Los experimentos muestran que:
 
 ---
 
-# 🧪 Arquitecturas soportadas
+# 🧪 Arquitecturas implementadas
 
-El repositorio incluye implementación y entrenamiento de:
+El repositorio incluye implementación y entrenamiento de algoritmos:
 
-* **Modelos Lineales**
+* **Lineales**
 * **LSTM**
 * **CNN**
 
 Con:
 
-* Validación cruzada (Patient-wise-croos-validation)
+* Validación cruzada (Pacient-wise-croos-validation)
 * Entrenamiento de 500 épocas
 * Distintos horizontes de predicción (30 y 60 min)
 
@@ -216,6 +216,7 @@ Perfecto. Aquí tienes una **versión ampliada del README** que **incluye gráfi
 ![Top10 AB](images/top10_ab.png)
 
 ---
+
 
 
 
