@@ -187,21 +187,21 @@ Perfecto. Aquí tienes una **versión ampliada del README** que **incluye gráfi
 ---
 # Gráficas
 
-## 🟦 1. Mejora en A+B del Clarke Error Grid por función de coste
+## 🧱 1. Mejora en A+B del Clarke Error Grid por rango
 
-![AB por rango](images/ab_by_loss.png)
+![AB por rango]("(graphics/boxplot_A + B_vs_rmse_by_range.png")
 
 ---
 
-## 🟦 2. Mejora en A+B del Clarke Error Grid por rango
+## 🧱 2. Mejora en A+B del Clarke Error Grid por función de coste
 
-![AB por función de coste](images/ab_by_loss.png)
+![AB por función de coste]("graphics/boxplot_A + B_vs_rmse_by_loss_function.png")
 
 ---
 
 ## 🔄 3. Correlación RMSE ↔ A+B por algoritmo
 
-![Correlación RMSE-AB](images/correlation_rmse_ab.png)
+![Correlación RMSE-AB](graphics/boxplot_A + B_vs_rmse_by_loss_function.png)
 
 ---
 
@@ -216,6 +216,7 @@ Perfecto. Aquí tienes una **versión ampliada del README** que **incluye gráfi
 ![Top10 AB](images/top10_ab.png)
 
 ---
+
 
 
 
