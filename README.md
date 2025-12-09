@@ -130,7 +130,7 @@ Con:
 # 📂 Estructura del repositorio
 
 ```
-/template/          # Archivos base para 
+/template/          # Archivos base para dividir datos, crear ventanas y lanzar los entremaientos
 /results/           # CSV y figuras con resultados y comparativas
 
 README.md
@@ -215,6 +215,7 @@ Perfecto. Aquí tienes una **versión ampliada del README** que **incluye gráfi
 ![Top10 AB](images/top10_ab.png)
 
 ---
+
 
 
 
