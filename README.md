@@ -44,12 +44,13 @@ Estas funciones basadas en el Clark Error Grid aplican una **curva sigmoidal** p
 ### ✔️ cSigp06
 
 
-
 ### 📊 Gráfica conceptual de la cSig
-
+ 
+#### cSigp01
 >![cSigp01 3D](graphics/csigp01_3D.png)
 >![cSigp01 2D](graphics/csigp01_ceg.png)
 
+#### cSigp06
 >![cSigp06 3D](graphics/csigp06_3D.png)
 >![cSigp06 2D](graphics/csigp06_ceg.png)
 
@@ -215,6 +216,7 @@ Perfecto. Aquí tienes una **versión ampliada del README** que **incluye gráfi
 ![Top10 AB](images/top10_ab.png)
 
 ---
+
 
 
 
