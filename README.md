@@ -47,12 +47,12 @@ Estas funciones basadas en el Clark Error Grid aplican una **curva sigmoidal** p
 ### 📊 Gráfica conceptual de la cSig
  
 #### cSigp01
->![cSigp01 3D](graphics/csigp01_3D.png)
->![cSigp01 2D](graphics/csigp01_ceg.png)
+>![cSigp01 3D](images/csigp01_3D.png)
+>![cSigp01 2D](images/csigp01_ceg.png)
 
 #### cSigp06
->![cSigp06 3D](graphics/csigp06_3D.png)
->![cSigp06 2D](graphics/csigp06_ceg.png)
+>![cSigp06 3D](images/csigp06_3D.png)
+>![cSigp06 2D](images/csigp06_ceg.png)
 
 
 Características:
@@ -130,10 +130,9 @@ Con:
 # 📂 Estructura del repositorio
 
 ```
-/template/
-/models/            # Implementación Linear, LSTM y CNN
+/template/          # Archivos base para 
 /results/           # CSV y figuras con resultados y comparativas
-notebooks/          # Análisis exploratorios y visualización
+
 README.md
 ```
 
@@ -189,19 +188,19 @@ Perfecto. Aquí tienes una **versión ampliada del README** que **incluye gráfi
 
 ## 🧱 1. Mejora en A+B del Clarke Error Grid por rango
 
-![AB por rango]("(graphics/boxplot_A + B_vs_rmse_by_range.png")
+![AB por rango]("(images/boxplot_A + B_vs_rmse_by_range.png")
 
 ---
 
 ## 🧱 2. Mejora en A+B del Clarke Error Grid por función de coste
 
-![AB por función de coste]("graphics/boxplot_A + B_vs_rmse_by_loss_function.png")
+![AB por función de coste]("images/boxplot_A + B_vs_rmse_by_loss_function.png")
 
 ---
 
 ## 🔄 3. Correlación RMSE ↔ A+B por algoritmo
 
-![Correlación RMSE-AB](graphics/boxplot_A + B_vs_rmse_by_loss_function.png)
+![Correlación RMSE-AB](images/boxplot_A + B_vs_rmse_by_loss_function.png)
 
 ---
 
@@ -216,6 +215,7 @@ Perfecto. Aquí tienes una **versión ampliada del README** que **incluye gráfi
 ![Top10 AB](images/top10_ab.png)
 
 ---
+
 
 
 
