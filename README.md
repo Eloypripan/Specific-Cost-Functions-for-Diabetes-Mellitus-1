@@ -47,10 +47,11 @@ Estas funciones basadas en el Clark Error Grid aplican una **curva sigmoidal** p
 
 ### 📊 Gráfica conceptual de la cSig
 
->![cSigp01](graphics/csigp01_3D.png)
+>![cSigp01 3D](graphics/csigp01_3D.png)
+>![cSigp01 2D](graphics/csigp01_ceg.png)
 
->![cSigp06](images/csigp06_3D.png)
-
+>![cSigp06 3D](graphics/csigp06_3D.png)
+>![cSigp06 2D](graphics/csigp06_ceg.png)
 
 
 Características:
@@ -120,9 +121,6 @@ Con:
 * Validación cruzada (Patient-wise-croos-validation)
 * Entrenamiento de 500 épocas
 * Distintos horizontes de predicción (30 y 60 min)
-
-
-![AB por función de coste](images/ab_by_loss.png)
 
 ---
 
@@ -217,6 +215,7 @@ Perfecto. Aquí tienes una **versión ampliada del README** que **incluye gráfi
 ![Top10 AB](images/top10_ab.png)
 
 ---
+
 
 
 
